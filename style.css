@@ -21,3 +21,18 @@
 .head :first-child {
   margin-right: auto;
 }
+.main {
+  display: flex;
+  background-color: seagreen;
+  max-width: 700px;
+}
+.side-bar {
+  background-color: palegreen;
+  width: 300px;
+  
+}
+
+footer {
+  background-color: royalblue;
+  width: 100%;
+}
