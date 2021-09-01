@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+.head {
+  width: 100%;
+  background-color: violet;
+  display: flex;
+
+  padding: 30px 20px;
+  justify-content: flex-end;
+}
+.head-box {
+  background-color: wheat;
+  margin: 0 10px;
+  flex-basis: 140px;
+  height: 70px;
+}
+
+.head :first-child {
+  margin-right: auto;
+}
