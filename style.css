@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 .head {
-  width: 100%;
   background-color: violet;
   display: flex;
 
@@ -21,7 +20,7 @@
 .head :first-child {
   margin-right: auto;
 }
-.main {
+main {
   display: flex;
   justify-content: center;
 }
@@ -38,11 +37,11 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.main-box {
+.box-area > div {
   background-color: yellow;
   flex-basis: 200px;
-  height: 120px;
-  margin: 12px;
+  height: 130px;
+  margin: 10px;
 }
 footer {
   background-color: #52a1ff;
@@ -51,7 +50,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 }
-.footer-box {
+.foot-box {
   background-color: #b6e7ff;
   width: 45%;
   max-width: 600px;
