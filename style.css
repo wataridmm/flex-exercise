@@ -23,15 +23,38 @@
 }
 .main {
   display: flex;
-  background-color: seagreen;
-  max-width: 700px;
+  justify-content: center;
 }
 .side-bar {
   background-color: palegreen;
   width: 300px;
-  
+}
+.box-area {
+  background-color: seagreen;
+  padding: 20px;
+  max-width: 700px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-box {
+  background-color: yellow;
+  flex-basis: 200px;
+  height: 120px;
+  margin: 12px;
 }
 footer {
-  background-color: royalblue;
-  width: 100%;
+  background-color: #52a1ff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-box {
+  background-color: #b6e7ff;
+  width: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
 }
